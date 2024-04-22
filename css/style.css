@@ -37,6 +37,46 @@ body{
     width: 25%;
     padding: 0 10px;
   }
+
+  .contents{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius:10px;
+   
+}
+
+.contents .col-6{
+    width: 50%;
+
+   
+}
+.contents .col-6:nth-child(1){
+    background: rgb(230, 229, 229);
+    padding: 30px;
+}
+.contents .col-6 .items{
+    display: flex;
+}
+
+
+.contents .col-6{
+    width: 50%;
+
+   
+}
+.contents .col-6:nth-child(1){
+    background: rgb(230, 229, 229);
+    padding: 30px;
+}
+.contents .col-6 .items{
+    display: flex;
+}
+
+
+
+
 .footer h6{
     font-family: "Moul", serif;
 }
