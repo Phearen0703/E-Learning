@@ -20,6 +20,7 @@ body{
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
 }
+
 .card:hover{
   transform: scale(1.03);
   cursor: pointer;
@@ -80,3 +81,10 @@ body{
 .footer h6{
     font-family: "Moul", serif;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    
+  }
